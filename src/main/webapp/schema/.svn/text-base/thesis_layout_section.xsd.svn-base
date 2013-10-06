@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/layouts"
+	xmlns:tns="http://www.example.org/layouts"
+	elementFormDefault="qualified">
+	
+	<xs:complexType name="inner">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string"/>
+			<xs:element name="age" type="xs:short"/>
+			<xs:element name="sex">
+				<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="M"/>
+							<xs:enumeration value="F"/>
+						</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+
+	<xs:element name="root">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="person" type="tns:inner"/>
+				<xs:element name="father" type="tns:inner"/>
+				<xs:element name="mother" type="tns:inner"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

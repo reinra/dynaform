@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/simple1"
+	xmlns:tns="http://www.example.org/simple1"
+	elementFormDefault="qualified">
+
+	<xs:element name="root">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="sex">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="male"/>
+							<xs:enumeration value="female"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/16/trunk/tests/schema
+END
+rootOnly.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/tests/schema/rootOnly.xsd
+END
+rootDefaultValue.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/tests/schema/rootDefaultValue.xsd
+END
+rootFixedAttribute.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/16/trunk/tests/schema/rootFixedAttribute.xsd
+END
+rootDefaultAttribute.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/16/trunk/tests/schema/rootDefaultAttribute.xsd
+END
+rootOptionalAttribute.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/16/trunk/tests/schema/rootOptionalAttribute.xsd
+END
+rootOptionalAttribute.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/16/trunk/tests/schema/rootOptionalAttribute.xml
+END
+rootFixedValue.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/tests/schema/rootFixedValue.xsd
+END

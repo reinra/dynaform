@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.yawlfoundation.org/sb/castInfo"
+	xmlns:tns="http://www.yawlfoundation.org/sb/castInfo" attributeFormDefault="unqualified"
+	elementFormDefault="unqualified">
+
+	<element name="Input_Cast_List" type="tns:Input_Cast_ListType" />
+
+	<complexType name="Input_Cast_ListType">
+		<sequence>
+			<element name="production" type="string" maxOccurs="3" />	<!--Input Only-->
+			<element name="castInfo" type="tns:castInfoType" />	<!--Input/Output-->
+		</sequence>
+	</complexType>
+
+	<complexType name="castInfoType">
+		<sequence>
+			<element name="singleCastInfo" type="tns:singleCastInfoType" />
+		</sequence>
+	</complexType>
+
+	<complexType name="singleCastInfoType">
+		<sequence minOccurs="0" maxOccurs="unbounded">
+			<element name="character" type="string" />
+			<element name="artist" type="string" default="No Artist" />
+			<element name="agent" type="string" fixed="My agent" />
+			<element name="agentContactNo" type="string" />
+			<element name="age" type="positiveInteger" />
+			<element name="date" type="date" />
+		</sequence>
+	</complexType>
+</schema>

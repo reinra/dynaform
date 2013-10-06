@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:foo bar="333"
+	xmlns:tns="http://www.yawlfoundation.org/sb/weather" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.yawlfoundation.org/sb/weather rootOneAttribute.xsd ">
+</tns:foo>

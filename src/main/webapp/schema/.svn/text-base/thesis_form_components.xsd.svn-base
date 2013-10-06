@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="element">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="name" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="section">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="content" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="repeat">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="item" type="xs:string" minOccurs="1" maxOccurs="5"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="sequence">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="one" type="xs:string"/>
+				<xs:element name="two" type="xs:string"/>
+				<xs:element name="three" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="choice">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element name="one" type="xs:string"/>
+				<xs:element name="two" type="xs:string"/>
+				<xs:element name="three" type="xs:string"/>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="all">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="one" type="xs:string"/>
+				<xs:element name="two" type="xs:string"/>
+				<xs:element name="three" type="xs:string"/>
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="root">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="element"/>
+				<xs:element ref="section"/>
+				<xs:element ref="repeat"/>
+				<xs:element ref="sequence"/>
+				<xs:element ref="choice"/>
+				<xs:element ref="all"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

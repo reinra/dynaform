@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/220/trunk/schema
+END
+FilmForms_reviewContinuityInfoType.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/192/trunk/schema/FilmForms_reviewContinuityInfoType.xsd
+END
+FilmForms_timeSheetInfoType.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/192/trunk/schema/FilmForms_timeSheetInfoType.xsd
+END
+FilmForms_soundInfoType.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/192/trunk/schema/FilmForms_soundInfoType.xsd
+END
+demo_form_components_repeated.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/192/trunk/schema/demo_form_components_repeated.xsd
+END
+thesis_form_components.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/192/trunk/schema/thesis_form_components.xsd
+END
+FilmForms_shootingScheduleType.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/192/trunk/schema/FilmForms_shootingScheduleType.xsd
+END
+demo_simple_types_repeated.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/192/trunk/schema/demo_simple_types_repeated.xsd
+END
+FilmForms_welcomeToStartProcessType.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/192/trunk/schema/FilmForms_welcomeToStartProcessType.xsd
+END
+thesis_layout_repeat.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/192/trunk/schema/thesis_layout_repeat.xsd
+END
+demo_repeat_element.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/192/trunk/schema/demo_repeat_element.xsd
+END
+FilmForms_locationInfoType.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/192/trunk/schema/FilmForms_locationInfoType.xsd
+END
+w3school_shiporder_types.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/192/trunk/schema/w3school_shiporder_types.xsd
+END
+FilmForms_continuityDailyReportType.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/192/trunk/schema/FilmForms_continuityDailyReportType.xsd
+END
+FilmForms_reviseShootingScheduleType.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/192/trunk/schema/FilmForms_reviseShootingScheduleType.xsd
+END
+FilmForms_reviewTimeSheetInfoType.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/192/trunk/schema/FilmForms_reviewTimeSheetInfoType.xsd
+END
+w3school_shiporder_divided.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/192/trunk/schema/w3school_shiporder_divided.xsd
+END
+demo_simple_types_all.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/192/trunk/schema/demo_simple_types_all.xsd
+END
+FilmForms_checkWeather.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/192/trunk/schema/FilmForms_checkWeather.xsd
+END
+demo_repeat_sequence.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/192/trunk/schema/demo_repeat_sequence.xsd
+END
+demo_restriction_enumeration.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/192/trunk/schema/demo_restriction_enumeration.xsd
+END
+slides_mini_example_updated.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/220/trunk/schema/slides_mini_example_updated.xsd
+END
+thesis_layout_section.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/192/trunk/schema/thesis_layout_section.xsd
+END
+demo_simple_types.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/192/trunk/schema/demo_simple_types.xsd
+END
+w3school_shiporder_nested.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/192/trunk/schema/w3school_shiporder_nested.xsd
+END
+thesis_example_changed.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/192/trunk/schema/thesis_example_changed.xsd
+END
+FilmForms_cameraInfoType.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/192/trunk/schema/FilmForms_cameraInfoType.xsd
+END
+FilmForms_callSheetType.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/192/trunk/schema/FilmForms_callSheetType.xsd
+END
+demo_basic.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/192/trunk/schema/demo_basic.xsd
+END
+demo_choice_complex.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/192/trunk/schema/demo_choice_complex.xsd
+END
+FilmForms_castInfoType.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/192/trunk/schema/FilmForms_castInfoType.xsd
+END
+msdn_purchaseOrder.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/192/trunk/schema/msdn_purchaseOrder.xsd
+END
+FilmForms_crewInfoType.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/192/trunk/schema/FilmForms_crewInfoType.xsd
+END
+demo_choice.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/192/trunk/schema/demo_choice.xsd
+END
+FilmForms_continuityInfoType.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/192/trunk/schema/FilmForms_continuityInfoType.xsd
+END
+demo_restriction_list.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/192/trunk/schema/demo_restriction_list.xsd
+END
+demo_basic_attribute.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/192/trunk/schema/demo_basic_attribute.xsd
+END
+slides_mini_example.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/220/trunk/schema/slides_mini_example.xsd
+END
+thesis_example.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/220/trunk/schema/thesis_example.xsd
+END
+demo_form_components.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/192/trunk/schema/demo_form_components.xsd
+END
+FilmForms_DPRinfoType.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/192/trunk/schema/FilmForms_DPRinfoType.xsd
+END

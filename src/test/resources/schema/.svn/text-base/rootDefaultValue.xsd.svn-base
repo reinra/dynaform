@@ -1,0 +1,7 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.yawlfoundation.org/sb/weather"
+	xmlns:tns="http://www.yawlfoundation.org/sb/weather" attributeFormDefault="unqualified"
+	elementFormDefault="unqualified">
+
+	<element name="foo" type="string" default="bar" />
+
+</schema>

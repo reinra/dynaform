@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:simpleType name="sex">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="male"/>
+			<xs:enumeration value="female"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:element name="sequence">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="name" type="xs:string"/>
+				<xs:element name="age" type="xs:int"/>
+				<xs:element name="sex" type="sex"/>
+				<xs:element name="married" type="xs:boolean"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="choice">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element name="name" type="xs:string"/>
+				<xs:element name="age" type="xs:int"/>
+				<xs:element name="sex" type="sex"/>
+				<xs:element name="married" type="xs:boolean"/>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="all">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="name" type="xs:string"/>
+				<xs:element name="age" type="xs:int"/>
+				<xs:element name="sex" type="sex"/>
+				<xs:element name="married" type="xs:boolean"/>
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="root">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="sequence" maxOccurs="unbounded"/>
+				<xs:element ref="choice" maxOccurs="unbounded"/>
+				<xs:element ref="all" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

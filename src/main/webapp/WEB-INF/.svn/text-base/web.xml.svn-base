@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  <listener>
+    <listener-class>
+      org.araneaframework.http.core.StandardSessionListener
+    </listener-class>
+  </listener>
+
+   <servlet>
+      <servlet-name>araneaServlet</servlet-name>
+     	<servlet-class>org.araneaframework.integration.spring.AraneaSpringDispatcherServlet</servlet-class>
+      <load-on-startup>1</load-on-startup>
+   </servlet>
+   
+   <servlet-mapping>
+      <servlet-name>araneaServlet</servlet-name>
+      <url-pattern>/main/*</url-pattern>
+   </servlet-mapping>
+</web-app>
