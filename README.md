@@ -24,6 +24,7 @@ mvn clean package
 ```
 
 Tun run examples:
+
 1. build the project
 2. copy target/dynaform.war to /path/to/tomcat/webapps/
 3. run Tomcat and open http://localhost:8080/dynaform/ in your browser
