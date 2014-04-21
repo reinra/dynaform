@@ -14,7 +14,7 @@ The web form can be customized using a special metadata document (labels, contro
 The latter is automatically generated with default values to make the customization easy to start with.
 While the custom metadata is preserved, new schema elements are added automatically with default values and (re)moved elements are marked as "broken".
 So if the schema might change one must only customize the differences.
-Current implementation is based on [Aranea Web Framework](http://www.araneaframework.org/).
+Current implementation is based on [Aranea Web Framework](http://nortal.github.io/araneaframework/).
 
 ### Installation
 
